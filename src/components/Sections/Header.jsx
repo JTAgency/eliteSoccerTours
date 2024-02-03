@@ -6,6 +6,7 @@ import FullButton from "../Buttons/FullButton";
 import HeaderImage from "../../assets/img/header_pic.png";
 import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
+import { Link } from "react-scroll";
 
 export default function Header() {
   return (
@@ -16,9 +17,14 @@ export default function Header() {
           <HeaderP className="font13 semiBold">
             Explore your passion for soccer with our dream tours. Unforgettable experiences await at iconic stadiums worldwide. Kick off your adventure today!
           </HeaderP>
-          <BtnWrapper>
-            <FullButton title="Get Started" />
-          </BtnWrapper>
+          
+          <li className="semiBold font15 pointer" style={{ listStyle: 'none' }}>
+            <Link activeClass="active" style={{ padding: "10px 15px", textDecoration: 'none' }} to="contact" spy={true} smooth={true} offset={-80}>
+              <BtnWrapper>
+                <FullButton title="Contact Us" /> 
+              </BtnWrapper>
+            </Link>
+          </li>
         </div>
       </LeftSide>
       <RightSide>

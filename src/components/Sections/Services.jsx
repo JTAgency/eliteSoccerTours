@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-scroll";
 // Components
 import ClientSlider from "../Elements/ClientSlider";
 import ServiceBox from "../Elements/ServiceBox";
@@ -69,12 +70,17 @@ export default function Services() {
                   like never before
                 </p>
                 <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0"}}>
-                  <div style={{ width: "190px" }}>
-                    <FullButton title="Get Started" action={() => alert("clicked")} />
-                  </div>
-                  <div style={{ width: "190px", marginLeft: "15px" }}>
+                  <li className="semiBold font15 pointer" style={{ listStyle: 'none' }}>
+                    <Link activeClass="active" style={{ padding: "10px 15px", textDecoration: 'none' }} to="contact" spy={true} smooth={true} offset={-80}>
+                      <div style={{ width: "190px" }}>
+                        <FullButton title="Get Started" />
+                      </div>
+                    </Link>
+                  </li>
+                  
+                  {/* <div style={{ width: "190px", marginLeft: "15px" }}>
                     <FullButton title="Contact Us" action={() => alert("clicked")} border />
-                  </div>
+                  </div> */}
                 </ButtonsRow>
               </AddLeft>
               <AddRight>

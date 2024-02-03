@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function ProjectBox({ img, title, text, action}) {
+export default function ProjectBox({ img, title, text, action }) {
   return (
     <Wrapper>
-      <ImgBtn className="aniamte pointer" onClick={action ? () => action() : null}>
+      <ImgBtn className="animate pointer" onClick={action ? () => action() : null}>
         <img className="radius8" src={img} alt="project"></img>
       </ImgBtn>
       <h3 className="font20 extraBold">{title}</h3>
@@ -25,13 +25,19 @@ const Wrapper = styled.div`
     padding-bottom: 10px;
   }
 `;
+
 const ImgBtn = styled.button`
   background-color: transparent;
   border: 0px;
   outline: none;
   padding: 0px;
   margin: 0px;
-  :hover > img {
-    opacity: 0.5;
+
+  /* Set cursor to 'default' to keep it normal */
+  cursor: default;
+
+  /* Remove hover effect */
+  :hover {
+    opacity: 1;
   }
 `;
