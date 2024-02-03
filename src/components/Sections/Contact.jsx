@@ -8,7 +8,7 @@ import ContactImg3 from "../../assets/img/barca.jpg";
 export default function Contact() {
   return (
     <Wrapper id="contact">
-      <div className="whiteBg">
+      <div className="lightBg">
         <div className="container">
           <HeaderInfo>
             <h1 className="font40 extraBold">Let's get in touch</h1>

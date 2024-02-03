@@ -1,26 +1,27 @@
 import React from "react";
 import styled from "styled-components";
 // Assets
+import ticketImage from "../../assets/svg/Services/ticket.jpg"; 
+import stadiumImage from "../../assets/svg/Services/stadium.jpg";
+import accommodationImage from "../../assets/svg/Services/accommodation.jpg";
+import busImage from "../../assets/svg/Services/bus.jpg";
 import RollerIcon from "../../assets/svg/Services/RollerIcon";
-import MonitorIcon from "../../assets/svg/Services/MonitorIcon";
-import BrowserIcon from "../../assets/svg/Services/BrowserIcon";
-import PrinterIcon from "../../assets/svg/Services/PrinterIcon";
 
 export default function ServiceBox({icon, title, subtitle}) {
   let getIcon;
 
   switch (icon) {
     case "roller":
-      getIcon = <RollerIcon />;
+      getIcon = <img src={ticketImage} alt="Ticket" style={{width: '80px'}}/>;
       break;
     case "monitor":
-      getIcon = <MonitorIcon />;
+      getIcon = <img src={stadiumImage} alt="Ticket" style={{width: '80px'}}/>;
       break;
     case "browser":
-      getIcon = <BrowserIcon />;
+      getIcon = <img src={accommodationImage} alt="Ticket" style={{width: '80px'}}/>;
       break;
     case "printer":
-      getIcon = <PrinterIcon />;
+      getIcon = <img src={busImage} alt="Ticket" style={{width: '80px'}}/>;
       break;
     default:
       getIcon = <RollerIcon />;
