@@ -21,7 +21,7 @@ export default function Header() {
           <li className="semiBold font15 pointer" style={{ listStyle: 'none' }}>
             <Link activeClass="active" style={{ padding: "10px 15px", textDecoration: 'none' }} to="contact" spy={true} smooth={true} offset={-80}>
               <BtnWrapper>
-                <FullButton title="Contact Us" /> 
+                <FullButton title="Get Started" /> 
               </BtnWrapper>
             </Link>
           </li>
