@@ -39,10 +39,10 @@
   }
   a {
     text-decoration: none!important;
-    color: #0B093B;
+    color: #000000;
   }
   a:hover {
-    color: #7620FF;
+    color: #2198ec;
   }
   input:-webkit-autofill {
     -webkit-box-shadow:0 0 0 50px #fff inset; /* Change the color to your own background color */
@@ -51,11 +51,11 @@
   }
   body {
     background: #fff;
-    color: #0B093B;
-    font-family: 'Khula', sans-serif;
+    color: #000000;
+    font-family: 'Russo One', sans-serif;
     overflow-x: hidden;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
   }
   .container {
     width: 100%;
@@ -72,10 +72,10 @@
     font-weight: 400!important;
   }
   .semiBold {
-    font-weight: 600!important;
+    font-weight: 100!important;
   }
   .extraBold {
-    font-weight: 800!important;
+    font-weight: 100!important;
   }
 
   /* HELLPERS */
@@ -104,8 +104,8 @@
     width: 100%;
   }
   .active {
-    border-bottom: 2px solid #7620FF;
-    color: #7620FF;
+    border-bottom: 2px solid #2198ec;
+    color: #2198ec;
   }
   .tag {
     padding: 5px 10px;
@@ -221,10 +221,10 @@
   }
   /* COLORS */
   .darkColor {
-    color: #0B093B;
+    color: #000000;
   }
   .purpleColor {
-    color: #7620FF;
+    color: #2198ec;
   }
   .orangeColor {
     color: #F2B300;
@@ -246,10 +246,10 @@
   }
   /* BACKGROUNDS */
   .darkBg {
-    background-color: #0B093B;
+    background-color: #000000;
   }
   .purpleBg {
-    background-color: #7620FF;
+    background-color: #2198ec;
   }
   .orangeBg {
     background-color: #F2B300;

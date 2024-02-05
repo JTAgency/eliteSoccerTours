@@ -3,8 +3,9 @@ import styled from "styled-components";
 // Components
 import FullButton from "../Buttons/FullButton";
 // Assets
-import HeaderImage from "../../assets/img/header_pic.png";
-import QuotesIcon from "../../assets/svg/Quotes";
+// import HeaderImage from "../../assets/img/header_pic.png";
+import HeaderVideo from "../../assets/header.mp4";
+// import QuotesIcon from "../../assets/svg/Quotes";
 import Dots from "../../assets/svg/Dots";
 import { Link } from "react-scroll";
 
@@ -29,6 +30,16 @@ export default function Header() {
       </LeftSide>
       <RightSide>
         <ImageWrapper>
+          <Video className="radius8" autoPlay muted loop playsInline style={{zIndex: 9}}>
+            <source src={HeaderVideo} type="video/mp4" />
+              Your browser does not support the video tag.
+          </Video>
+          <DotsWrapper>
+            <Dots />
+          </DotsWrapper>
+        </ImageWrapper>
+        
+        {/* <ImageWrapper>
           <Img className="radius8" src={HeaderImage} alt="office" style={{zIndex: 9}} />
           <QuoteWrapper className="flexCenter darkBg radius8">
             <QuotesWrapper>
@@ -44,7 +55,7 @@ export default function Header() {
           <DotsWrapper>
             <Dots />
           </DotsWrapper>
-        </ImageWrapper>
+        </ImageWrapper> */}
         <GreyDiv className="lightBg"></GreyDiv>
       </RightSide>
     </Wrapper>
@@ -119,31 +130,40 @@ const ImageWrapper = styled.div`
     justify-content: center;
   }
 `;
-const Img = styled.img`
+
+const Video = styled.video`
+  height: 60rem;
   @media (max-width: 560px) {
     width: 80%;
     height: auto;
   }
 `;
-const QuoteWrapper = styled.div`
-  position: absolute;
-  left: 0;
-  bottom: 50px;
-  max-width: 330px;
-  padding: 30px;
-  z-index: 99;
-  @media (max-width: 960px) {
-    left: 20px;
-  }
-  @media (max-width: 560px) {
-    bottom: -50px;
-  }
-`;
-const QuotesWrapper = styled.div`
-  position: absolute;
-  left: -20px;
-  top: -10px;
-`;
+
+// const Img = styled.img`
+//   @media (max-width: 560px) {
+//     width: 80%;
+//     height: auto;
+//   }
+// `;
+// const QuoteWrapper = styled.div`
+//   position: absolute;
+//   left: 0;
+//   bottom: 50px;
+//   max-width: 330px;
+//   padding: 30px;
+//   z-index: 99;
+//   @media (max-width: 960px) {
+//     left: 20px;
+//   }
+//   @media (max-width: 560px) {
+//     bottom: -50px;
+//   }
+// `;
+// const QuotesWrapper = styled.div`
+//   position: absolute;
+//   left: -20px;
+//   top: -10px;
+// `;
 const DotsWrapper = styled.div`
   position: absolute;
   right: -100px;

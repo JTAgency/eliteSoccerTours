@@ -12,7 +12,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
         <div className="flexNullCenter">
           <img src={LogoIcon} alt="Logo" style={{ width: "70px", height: "70px", marginRight: "0px" }} />
           <h1 className="whiteColor font20" style={{ marginLeft: "15px" }}>
-            fanatic
+            Elite Soccer Tours
           </h1>
         </div>
         <CloseBtn onClick={() => toggleSidebar(!sidebarOpen)} className="animate pointer">
@@ -60,7 +60,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Projects
+            Gallery
           </Link>
         </li>
         <li className="semiBold font15 pointer">
@@ -74,7 +74,7 @@ export default function Sidebar({ sidebarOpen, toggleSidebar }) {
             smooth={true}
             offset={-60}
           >
-            Blog
+            Reviews
           </Link>
         </li>
         {/* <li className="semiBold font15 pointer">
