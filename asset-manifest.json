@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/eliteSoccerTours/static/css/main.040834e3.chunk.css",
-    "main.js": "/eliteSoccerTours/static/js/main.0545d547.chunk.js",
-    "main.js.map": "/eliteSoccerTours/static/js/main.0545d547.chunk.js.map",
+    "main.css": "/eliteSoccerTours/static/css/main.9da3f1c5.chunk.css",
+    "main.js": "/eliteSoccerTours/static/js/main.f81c0e52.chunk.js",
+    "main.js.map": "/eliteSoccerTours/static/js/main.f81c0e52.chunk.js.map",
     "runtime-main.js": "/eliteSoccerTours/static/js/runtime-main.a376ca9c.js",
     "runtime-main.js.map": "/eliteSoccerTours/static/js/runtime-main.a376ca9c.js.map",
     "static/css/2.aaad137f.chunk.css": "/eliteSoccerTours/static/css/2.aaad137f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.9abe9b76.chunk.js.map": "/eliteSoccerTours/static/js/3.9abe9b76.chunk.js.map",
     "index.html": "/eliteSoccerTours/index.html",
     "static/css/2.aaad137f.chunk.css.map": "/eliteSoccerTours/static/css/2.aaad137f.chunk.css.map",
-    "static/css/main.040834e3.chunk.css.map": "/eliteSoccerTours/static/css/main.040834e3.chunk.css.map",
+    "static/css/main.9da3f1c5.chunk.css.map": "/eliteSoccerTours/static/css/main.9da3f1c5.chunk.css.map",
     "static/js/2.1a2c3e8c.chunk.js.LICENSE.txt": "/eliteSoccerTours/static/js/2.1a2c3e8c.chunk.js.LICENSE.txt",
     "static/media/accommodation.fae60bef.jpg": "/eliteSoccerTours/static/media/accommodation.fae60bef.jpg",
     "static/media/barca.96ae1c3c.jpg": "/eliteSoccerTours/static/media/barca.96ae1c3c.jpg",
@@ -26,7 +26,7 @@
     "static/media/clients6.33388962.jpg": "/eliteSoccerTours/static/media/clients6.33388962.jpg",
     "static/media/cr7.1dfedc6b.jpg": "/eliteSoccerTours/static/media/cr7.1dfedc6b.jpg",
     "static/media/fifa.bac2d084.png": "/eliteSoccerTours/static/media/fifa.bac2d084.png",
-    "static/media/header_pic.815aa2cf.png": "/eliteSoccerTours/static/media/header_pic.815aa2cf.png",
+    "static/media/header.b561ffd1.mp4": "/eliteSoccerTours/static/media/header.b561ffd1.mp4",
     "static/media/laliga.219bf126.png": "/eliteSoccerTours/static/media/laliga.219bf126.png",
     "static/media/logo_transparent.223b9ad5.png": "/eliteSoccerTours/static/media/logo_transparent.223b9ad5.png",
     "static/media/madrid.a06b0f55.jpg": "/eliteSoccerTours/static/media/madrid.a06b0f55.jpg",
@@ -46,7 +46,7 @@
     "static/js/runtime-main.a376ca9c.js",
     "static/css/2.aaad137f.chunk.css",
     "static/js/2.1a2c3e8c.chunk.js",
-    "static/css/main.040834e3.chunk.css",
-    "static/js/main.0545d547.chunk.js"
+    "static/css/main.9da3f1c5.chunk.css",
+    "static/js/main.f81c0e52.chunk.js"
   ]
 }
