@@ -3,14 +3,14 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 // Assets
 import CloseIcon from "../../assets/svg/CloseIcon";
-import LogoIcon from "../../assets/svg/logo_transparent.png";
+import LogoIcon from "../../assets/svg/footer_logo.png";
 
 export default function Sidebar({ sidebarOpen, toggleSidebar }) {
   return (
     <Wrapper className="animate darkBg" sidebarOpen={sidebarOpen}>
       <SidebarHeader className="flexSpaceCenter">
         <div className="flexNullCenter">
-          <img src={LogoIcon} alt="Logo" style={{ width: "70px", height: "70px", marginRight: "0px" }} />
+          <img src={LogoIcon} alt="Logo" style={{ width: "80px", height: "70px", marginRight: "0px" }} />
           <h1 className="whiteColor font20" style={{ marginLeft: "15px" }}>
             Elite Soccer Tours
           </h1>

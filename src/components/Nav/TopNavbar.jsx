@@ -27,7 +27,7 @@ export default function TopNavbar() {
       <Wrapper className="flexCenter animate whiteBg" style={y > 100 ? { height: "60px" } : { height: "80px" }}>
         <NavInner className="container flexSpaceCenter">
           <Link className="pointer flexNullCenter" to="home" smooth={true}>
-            <img src={LogoIcon} alt="Logo" style={{ width: "70px", height: "70px", marginRight: "0px" }} />
+            <img src={LogoIcon} alt="Logo" style={{ width: "80px", height: "70px", marginRight: "0px" }} />
             <h1 style={{ marginLeft: "15px" }} className="font20 extraBold">
               Elite Soccer Tours
             </h1>

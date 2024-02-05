@@ -44,7 +44,7 @@
     color: #000000;
   }
   a:hover {
-    color: #2198ec;
+    color: #008657;
   }
   input:-webkit-autofill {
     -webkit-box-shadow:0 0 0 50px #fff inset; /* Change the color to your own background color */
@@ -106,8 +106,8 @@
     width: 100%;
   }
   .active {
-    border-bottom: 2px solid #2198ec;
-    color: #2198ec;
+    border-bottom: 2px solid #008657;
+    color: #008657;
   }
   .tag {
     padding: 5px 10px;
@@ -226,7 +226,7 @@
     color: #000000;
   }
   .purpleColor {
-    color: #2198ec;
+    color: #008657;
   }
   .orangeColor {
     color: #F2B300;
@@ -251,7 +251,7 @@
     background-color: #000000;
   }
   .purpleBg {
-    background-color: #2198ec;
+    background-color: #008657;
   }
   .orangeBg {
     background-color: #F2B300;
