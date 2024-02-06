@@ -97,9 +97,9 @@ export default function Projects() {
                 World Cup 2026 action. Don't miss out on the football fever – reserve your unforgettable journey now with Elite Soccer Tours.
               </p>
               <ButtonsRow className="flexNullCenter" style={{ margin: "30px 0" }}>
-                {/* <div style={{ width: "190px" }}>
-                  <FullButton title="Get Started" action={() => alert("clicked")} />
-                </div> */}
+                <div style={{ width: "190px" }}>
+                  <FullButton title="Get Started" />
+                </div>
                 <li className="semiBold font15 pointer" style={{ listStyle: 'none' }}>
                   <Link activeClass="active" style={{ padding: "10px 15px", textDecoration: 'none' }} to="contact" spy={true} smooth={true} offset={-80}>
                     <div style={{ width: "190px", marginLeft: "15px" }}>
